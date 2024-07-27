@@ -1,0 +1,16 @@
+package bvnb2;
+
+import java.util.Scanner;
+
+public class bvnb2 {
+
+	public static void main(String []args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("r= ");
+		double r = scanner.nextFloat();
+		float pi = 3.14;
+		float chuvi = 2*pi*r;
+		float dientich = r*r*pi;
+		System.out.print(chuvi+" "+dientich);	
+	}
+}
